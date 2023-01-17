@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "http://TheSoloLeveling.github.io/Portfolio",
   "scripts": {
-    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
